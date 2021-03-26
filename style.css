@@ -40,7 +40,8 @@ nav{
     color: rgb(216, 216, 216);
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 15px;
+    font-size: 10px;
+    left: auto;
 }
 .nav-links{
     display: flex;
@@ -89,7 +90,7 @@ nav{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 45%;
         transform: translateX(100%);
         transition: transform 1s ease-in;
     }
