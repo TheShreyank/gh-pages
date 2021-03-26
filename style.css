@@ -21,7 +21,7 @@
 h3{
     text-align: center;
     padding: 50px;
-    color: black;
+    color: red;
     font-size: 30px;
     animation: blink 1s linear infinite;
     font-weight: bold;
@@ -72,13 +72,12 @@ nav{
     margin: 5px;
 }
 
-@media screen and (max-width: 1010px){
+@media screen and (max-width: 1024px){
     body{
-        overflow-x:visible ;
+        overflow-x: hidden;
 }
 }
-
-@media screen and (max-width: 750px){
+@media screen and (max-width: 768px){
     body{
         overflow-x: hidden;
     }
@@ -102,8 +101,4 @@ nav{
 
 .nav-active{
     transform: translateX(0%);
-}
-
-body{
-    background-color: cyan;
 }
