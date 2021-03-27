@@ -23,7 +23,7 @@ h3{
     padding: 50px;
     color: red;
     font-size: 30px;
-    animation: blink 1s linear infinite;
+    animation: blink 1 linear infinite;
     font-weight: bold;
 }
 
@@ -31,7 +31,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 9vh;
     font-family: 'Oswald', sans-serif;
     background-color:#7a4462;
 }
@@ -39,9 +39,10 @@ nav{
 .logo{
     color: rgb(216, 216, 216);
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 10px;
-    left: auto;
+    letter-spacing: 3px;
+    font-size: 15px;
+    align-content: stretch;
+
 }
 .nav-links{
     display: flex;
