@@ -163,7 +163,6 @@ caption{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,72);
     padding: 12px 16px;
     z-index: 1;
-    font-family: ;
 }
   
 .dropdown-content > li > a:hover, .dropdown-content > li > a:focus {
