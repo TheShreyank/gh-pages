@@ -184,9 +184,8 @@ caption{
 
 
 .carousel-container{
-    width: 48%;
-    margin: auto;
-    border: 5px solid black;
+    width: 47%;
+    margin: auto;   
     overflow: hidden;
     position: relative;
 }
