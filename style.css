@@ -39,7 +39,7 @@ h3{
     padding: 50px;
     color: red;
     font-size: 30px;
-    animation: blink 1 linear infinite;
+    animation: blink 1s linear infinite;
     font-weight: bold;
 }
 
@@ -159,9 +159,9 @@ caption{
     display: none;
     position: absolute;
     background-color: #7a4462;
-    min-width: 345px;
+    min-width: 370px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,72);
-    padding: 12px 16px;
+    padding: 12px 20px;
     z-index: 1;
 }
   
@@ -216,3 +216,16 @@ caption{
     color: black;
     cursor: pointer;
 }
+
+div {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  table {
+    width:75%;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+  }
