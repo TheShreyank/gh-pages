@@ -188,8 +188,9 @@ caption{
 .carousel-container{
     width: 750px;
     margin: auto;   
-    overflow:scroll;
+    overflow: hidden;
     position: relative;
+    border: 1px solid black;
 }
 
 .carousel-slide{
